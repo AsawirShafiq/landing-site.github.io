@@ -1,0 +1,161 @@
+body, html {
+    height: 100%;
+    margin: 0%;
+    background-color: rgb(2, 2, 49);
+}
+
+nav{
+  margin-left: 8%;
+}
+
+.hero-page {
+  
+  background-color: rgb(63, 63, 253);
+  height: 90%;
+  display: flex;
+  
+}
+
+.button1 {
+  color: white;
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+  margin-top: 5%;
+  
+}
+.button1:hover {
+  background-color: #0a0091; 
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.hero-text {
+  color:aliceblue;
+  font-size: large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  animation-duration:3s;
+  animation-name: slidein;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+@keyframes slidein {
+0% {
+  margin-top: 0%;
+}
+
+100% {
+  margin-top: 8%    ;
+}
+}
+
+.title{
+  font-size: x-large;
+  text-align: center;
+  color:aliceblue;
+  width:100%;
+  height: 15%;
+}
+
+.body1{
+  background-color: rgb(2, 2, 49);
+  height: 500px;
+  
+}
+
+.bulletntext1{
+  display: flex;
+  width: 100%;
+ 
+}
+
+.bullet1{
+  margin-left: 10%;
+  margin-top: 1.5%;
+}
+
+.text1{
+  
+  margin-left: 2%;
+  font-size: x-large;
+  color:aliceblue;
+  
+}
+
+.bulletntext2{
+  margin-top: 4%;
+  display: flex;
+  width: 100%;
+ 
+}
+
+.bullet2{
+  margin-left: 30%;
+  margin-top: 1.5%;
+}
+
+.text2{
+ 
+  margin-left: 2%;
+  font-size: x-large;
+  color:aliceblue;
+  
+}
+
+.bulletntext3{
+  margin-top: 4%;
+  display: flex;
+  width: 100%;
+ 
+}
+
+.bullet3{
+  margin-left: 10%;
+  margin-top: 1.5%;
+}
+
+.text3{
+  
+  margin-left: 2%;
+  font-size: x-large;
+  color:aliceblue;
+  
+}
+
+.bulletntext4{
+  margin-top: 4%;
+  display: flex;
+  width: 100%;
+ 
+}
+
+.bullet4{
+  
+  margin-left: 30%;
+  margin-top: 1.5%;
+}
+
+.text4{
+  
+  margin-left: 2%;
+  font-size: x-large;
+  color:aliceblue;
+  
+}
+
+
+@media only screen and (max-width: 1000px) {
+  nav{
+    
+    display:none;
+
+  }
+}
+
